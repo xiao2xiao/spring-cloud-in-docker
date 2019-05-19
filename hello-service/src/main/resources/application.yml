@@ -1,0 +1,9 @@
+server:
+  port: 2001
+eureka:
+  client:
+    service-url:
+      defaultZone: http://192.168.254.136:1111/eureka/
+spring:
+  application:
+    name: hello-service
